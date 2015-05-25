@@ -266,7 +266,7 @@ public class AppWindow : Granite.Application {
 	                CONNECTION FUNCTIONS
 	   ---------------------------------------------------------------------
 	 */
-	private bool close_tab_action(Tab tab) {
+	private void close_tab_action(Tab tab) {
 
 		Page page = (Page)tab.page;
 		bool close_tab = true;
@@ -301,7 +301,7 @@ public class AppWindow : Granite.Application {
 
 		}
 
-		return close_tab;
+		//return close_tab;
 	}
 
 
